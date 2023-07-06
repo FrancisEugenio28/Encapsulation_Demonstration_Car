@@ -10,3 +10,6 @@ for i in range(5):
     car1.acceleration()
     print("The current speed of the car is: ", car1.get_speed())
 # brake the cake 5 times and display the current speed of the car
+for i in range(5):
+    car1.brake()
+    print("The current speed of the car is: ", car1.get_speed())
