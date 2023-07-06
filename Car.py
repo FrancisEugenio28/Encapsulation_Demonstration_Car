@@ -14,3 +14,7 @@ class Car:
 # return speed
     def get_speed(self):
         return self.__speed
+
+car1 = Car(2022, "Suzuki")
+car1.acceleration()
+print("Current speed: ", car1.get_speed())
